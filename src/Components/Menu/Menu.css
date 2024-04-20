@@ -1,0 +1,46 @@
+div.menu-section {
+  height: 100vh;
+  margin: 0 auto;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 5rem 0;
+}
+
+div.menu-section h1 {
+  padding-top: 3rem;
+  color: rgb(255, 98, 0);
+  font-family: "Freestyle Script", sans-serif;
+  font-size: 4rem;
+  letter-spacing: 5px;
+
+}
+
+div.menu-section .p {
+  color: black;
+  font-size: 1.2rem;
+  padding: 2rem;
+}
+
+.swiper-menu {
+  width: 23%;
+}
+
+.swiper-slide-menu {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 18px;
+  font-size: 22px;
+  font-weight: bold;
+  color: #fff;
+  background-color: orange;
+}
+
+.color-white {
+  color: white;
+}
+.color-red {
+  color: red;
+}

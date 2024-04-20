@@ -1,0 +1,45 @@
+div.About-section{
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 5rem;
+    height: calc(100vh - 84px);
+}
+
+div.info-about{
+    width: 60%;
+}
+
+div.info-about h1{
+    color: orange;
+    font-family: "Freestyle Script", sans-serif ;
+    font-size:4rem;
+}
+
+div.info-about h3{
+    font-weight: bold;
+}
+
+div.info-about p{
+    margin-top: 2rem;
+    width: 70%;
+    text-align: justify;
+}
+
+div.images{
+    width: 40%;
+    position: relative;
+}
+
+div.images img:nth-child(1){
+    position: absolute;
+    border-radius:50% ;
+    outline: 0.8rem solid orange;
+}
+
+div.images img:nth-child(2){
+    position: absolute;
+    left: 60%;
+    border-radius:50% ;
+    outline: 0.8rem solid orange;
+}

@@ -1,0 +1,41 @@
+div.Contact-section {
+  height: 100vh;
+  background-image: url("../../images/newsletter-bg.jpg");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+div.Contact-section div.info-contact {
+  position: absolute;
+  top: 15%;
+  left: 30%;
+  text-align: center;
+}
+
+div.Contact-section div.info-contact h1 {
+  color: rgb(255, 98, 0);
+  font-family: "Freestyle Script", sans-serif;
+  font-size: 4rem;
+  letter-spacing: 5px;
+}
+
+div.Contact-section div.info-contact p {
+  color: white;
+}
+
+div.Contact-section form {
+  width: 40%;
+  position: absolute;
+  top: 50%;
+  left: 33%;
+}
+
+div.Contact-section form input {
+  width: 60%;
+  height: 7vh;
+  padding: 0 0 0 0.5rem;
+  outline: none;
+  margin-bottom: 1rem;
+}
